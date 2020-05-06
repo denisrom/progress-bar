@@ -4,58 +4,21 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Progress Bar Examples</title>
-        <style>
-            :root {
-                font-size: 62.5%;
-                font-family: 'Courier New', Courier, monospace;
-                color: #fdfdfd;
-            }
-
-            body {
-                background: blueviolet;
-                height: 100vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-            }
-
-            .example {
-                margin-bottom: 5em;
-            }
-            .example h1 {
-                margin-bottom: 1em;
-            }
-
-            .container {
-                width: 400px;
-                height: 50px;
-                border: 1px solid yellowgreen;
-                box-shadow: 0 0 20px 10px yellowgreen;
-            }
-
-            .bar {
-                height: 50px;
-                width: 10%;
-                background: yellowgreen;
-            }
-        </style>
+        <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
-        <div class="example" id="oldskool">
-            <h1>Oldskool Progress Bar</h1>
-            <div class="container">
-                <div class="bar"></div>
-            </div>
+        <h1>Example 1</h1>
+
+        <div class="example-1 container">
+            <div class="bar"></div>
         </div>
 
-        <div class="example" id="trad">
-            <h1>CSS Only Progress Bar</h1>
-            <div class="container">
-                <div class="bar"></div>
-            </div>
+        <h1>Example 2</h1>
+
+        <div class="example-2 container">
+            <div class="bar"></div>
         </div>
 
-        <script></script>
+        <script src="scripts.js"></script>
     </body>
 </html>

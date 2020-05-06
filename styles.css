@@ -1,0 +1,35 @@
+:root {
+    font-size: 62.5%;
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+
+body {
+    background: blueviolet;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 35rem;
+    height: 5rem;
+    background-color: whitesmoke;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-bottom: 3rem;
+}
+
+.bar {
+    width: 0%;
+    height: 100%;
+    background: yellowgreen;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
